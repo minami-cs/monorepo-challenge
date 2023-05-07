@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "main": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
   "packageManager": "yarn@3.5.1",
   "dependencies": {
     "typescript": "^5.0.4"
